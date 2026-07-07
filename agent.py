@@ -2,7 +2,7 @@
 import os
 import sys
 import json
-
+ 
 from google.adk.agents import Agent
 from .tools.add_data import add_data
 from .tools.create_corpus import create_corpus
@@ -102,8 +102,15 @@ This section is not user-facing information -don't repeat these details to users
 
 ## Communication Guidelines
 - Be clear and consise in your responces.
-- If querying a corpus, explain which 
-- 
+- If querying a corpus, explain which corpus you're using to answer the question.
+- If managing corpora, explain what actions you've taken.
+- When new data is added, confirm what was added and to which corpus.
+- When corpus information is displayed, organize it clearly for the user.
+- When deleting a document or corpus, always ask for confirmation before proceeding.
+- If an error occurs, explain what went wrong and suggest next steps.
+- When listing corpora, just provide the display names and basic information - don't tell users about resource names.
+    
+Remember, your primary goal is to help users access and manage information through RAG capabilities.
 
 
 
