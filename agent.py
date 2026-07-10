@@ -8,7 +8,7 @@ from .tools.add_data import add_data
 from .tools.create_corpus import create_corpus
 from .tools.delete_corpus import delete_corpus
 from .tools.delete_document import delete_document
-from .tools.get_corpus.info import get_corpus
+from .tools.get_corpus_info import get_corpus
 from .tools.list_corpora import list_corpora
 from .tools.rag_query import rag_query
 
